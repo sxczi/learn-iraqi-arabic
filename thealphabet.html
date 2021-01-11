@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Learn Iraqi Arabic</title>
+    <meta name="author" content="Lara">
+    <meta name="description" content="Learn Iraqi arabic for free.">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/dd112ecfba.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/imgs/doge.png" type="image/png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/ay.png">
+    <meta name="theme-color" content="#fff">
+</head>
+<body>
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/thealphabet.html">The Alphabet</a></li>
+            <li><a href="/conversations.html">Conversations</a></li>
+            <li><a href="/phrasesandwords.html">Phrases and Words</a></li>
+            <li onclick="toggleNav()"><h2>×</h2></li>
+        </ul>
+    </div>
+    <header>
+        <nav>
+            <h1><a href="index.html">تعلم اللغة العربية</a></h1>
+            <h1 class="mob-h1"><a href="index.html">تعلم اللغة العربية</a></h1>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/thealphabet.html">The Alphabet</a></li>
+                <li><a href="/conversations.html">Conversations</a></li>
+                <li><a href="/phrasesandwords.html">Phrases and Words</a></li>
+            </ul>
+            <div>
+                <h3 onclick="toggleNav()"><i class="fas fa-bars"></i></h3>
+            </div>
+        </nav>
+    </header>
+    <h1 id="title-4">The alphabet - الابجدية العربية</h1>
+    <div class="alphabet-letters">
+        <br>
+        <p class="alph"><button onclick="alph1()"><i class="fas fa-volume-up"></i></button> أ  ب  ت  ث  ج  ح  خ  د  ذ  ر  ز  س  ش  ص  ض  ط  ظ  ع  غ  ف  ق  ك  گ  ل  م  ن  ه و  ي  ى  چ</p>
+        <audio id="alph1" src="./audio-alphabet/alphabet-1.wav"></audio>
+        <p id="romanized-letters" class="alph2">Alef Baa Taa Thaa Jeem hhaa khaa daal dhaal raa zaay seen sheen dhaad taa dhaa ayn ghayn faa qaf kaf gaf lam meem noon haa waw yaa alef che</p>
+        <p id="letters" class="alph3">A B T TH J H KH D TH R Z S SH S DH T DH 'AA GH F Q G L M N H W/U/O Y/I A CH <button onclick="alph2()"><i class="fas fa-volume-up"></i></button></p>
+        <audio id="alph2" src="./audio-alphabet/alphabet-2.wav"></audio>
+        <p class="note">Note: Arabic is written from right to left.</p>
+        <h3 class="rd">Reading exercises</h3>
+        <p><button onclick="marhaba()"><i class="fas fa-volume-up"></i></button> مرحبا <br> hello <br> (marhaba)</p>
+        <br>
+        <p><button onclick="shlonak()"><i class="fas fa-volume-up"></i></button> شلونك <br> how are you (m.) <br> (shlonek)</p>
+        <br>
+        <p><button onclick="ahlan()"><i class="fas fa-volume-up"></i></button> اهلا و سهلا <br> welcome <br> (ahlan wa sahlan)</p>
+        <br>
+        <p><button onclick="allah()"><i class="fas fa-volume-up"></i></button> الله اكبر <br> allah is great <br> (allahu akbar)</p>
+        <br>
+        <p><button onclick="sud()"><i class="fas fa-volume-up"></i></button> صدگ؟ <br> really? <br> (sudug)</p>
+        <br>
+        <p><button onclick="huw()"><i class="fas fa-volume-up"></i></button> هواية <br> a lot <br> (huwaye)</p>
+        <br>
+        <p><button onclick="hath()"><i class="fas fa-volume-up"></i></button> هذا <br> this <br> (hatha)</p>
+        <br>
+        <p><button onclick="thak()"><i class="fas fa-volume-up"></i></button> ذاك <br> that <br> (thak)</p>
+        <br>
+        <p><button onclick="shlonal()"><i class="fas fa-volume-up"></i></button> شلون الاحوال؟ <br> how are things? <br> (shlon el ahhwal)</p>
+        <h3 class="hk">Harakat (Vowel marks)</h3>
+        <p>َ = فتحة (fathha)</p>
+        <br>
+        <p> ُ = ضمة (dhama)</p>
+        <br>
+        <p>ِ  = كسرة (kasra)</p>
+        <br>
+        <p>ّ = شدة = (shadda)</p>
+        <br>
+        <p id="harakat">the fatha makes an "a" sound, the dhama makes a "w/u" sound, the kasra makes a "y/i" sound, the shadda duplicates the letter</p>
+        <br>
+        <p>دَ = da</p>
+        <br>
+        <p>دُ = du</p>
+        <br>
+        <p>دِ = di</p>
+        <br>
+        <p>دّ = dd</p>
+        <br>
+        <p id="harakat">there are more harakat but these are the most common ones. I will give additional reading exercises.</p>
+        <br>
+        <p>دادا = dada</p>
+        <br>
+        <p>ديدي = didi</p>
+        <br>
+        <p>دَق = daq</p>
+        <br>
+        <form id="form-test-alph" autocomplete="off">
+            <p>
+            Romanize the following words:
+            <br>
+            <br>
+            شلونك = <input id="q-one" type="text" placeholder="answer" required>
+            <br>
+            هَلا = <input id="q-two" type="text" placeholder="answer" required>
+            <br>
+            دال = <input id="q-three" type="text" placeholder="answer" required>
+            <br>
+            قال = <input id="q-four" type="text" placeholder="answer" required>
+            <br>
+            سَلام = <input id="q-five" type="text" placeholder="answer" required>
+            <br>
+            كان = <input id="q-six" type="text" placeholder="answer" required>
+            <br>
+            </p>
+            <button type="submit">Get results</button>
+        </form>
+    </div>
+    <footer>
+        <a href="#">Back to top</a><br>
+        Credits:
+        <br>
+        <a href="https://www.instagram.com/dogeduaa/" target="_blank" rel="noopener noreferrer">Ye</a>: Programming and hosting the site. 
+        <br> 
+        <a href="https://www.instagram.com/hs44ever/" target="_blank" rel="noopener noreferrer">HSE</a>: Recording the audio files. 
+        <br> 
+        <a href="https://www.instagram.com/n.a.h.r.a/" target="_blank" rel="noopener noreferrer">Nahra</a>: Coming up with this wonderful idea. 
+        <br> 
+        Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>

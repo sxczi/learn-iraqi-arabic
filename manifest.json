@@ -1,0 +1,20 @@
+{
+    "name": "Learn Iraqi Arabic",
+    "short_name": "Learn Iraqi",
+    "start_url": ".",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icons/ay.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/ayo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

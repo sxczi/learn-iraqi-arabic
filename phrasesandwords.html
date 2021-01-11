@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Learn Iraqi Arabic</title>
+    <meta name="author" content="Lara">
+    <meta name="description" content="Learn Iraqi arabic for free.">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/dd112ecfba.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/imgs/doge.png" type="image/png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/ay.png">
+    <meta name="theme-color" content="#fff">
+</head>
+<body id="home">
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/thealphabet.html">The Alphabet</a></li>
+            <li><a href="/conversations.html">Conversations</a></li>
+            <li><a href="/phrasesandwords.html">Phrases and Words</a></li>
+            <li onclick="toggleNav()"><h2>×</h2></li>
+        </ul>
+    </div>
+    <header>
+        <nav>
+            <h1><a href="index.html">تعلم اللغة العربية</a></h1>
+            <h1 class="mob-h1"><a href="index.html">تعلم اللغة العربية</a></h1>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/thealphabet.html">The Alphabet</a></li>
+                <li><a href="/conversations.html">Conversations</a></li>
+                <li><a href="/phrasesandwords.html">Phrases and Words</a></li>
+            </ul>
+            <div>
+                <h3 onclick="toggleNav()"><i class="fas fa-bars"></i></h3>
+            </div>
+        </nav>
+    </header>
+    <h1 class="title-5">Useful words and phrases</h1>
+    <div class="conversation">
+        <p>Hey = هلو <button onclick="hey()"><i class="fas fa-volume-up"></i></button></p>
+        <p>What's up = شكو ماكو <button onclick="sup()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Hello = السلام عليكم <button onclick="hello()"><i class="fas fa-volume-up"></i></button></p>
+        <p>response to salam alaikum = وعليكم السلام <button onclick="reshello()"><i class="fas fa-volume-up"></i></button></p>
+        <p>do you speak english? = تحچي انگليزي؟ <button onclick="speakenglish()"><i class="fas fa-volume-up"></i></button></p>
+        <p>yes = اي <button onclick="yes()"><i class="fas fa-volume-up"></i></button></p>
+        <p>no = لا <button onclick="no()"><i class="fas fa-volume-up"></i></button></p>
+        <p>I don't know = ما اعرف <button onclick="idk()"><i class="fas fa-volume-up"></i></button></p>
+        <p>I don't understand = مدا افتهم <button onclick="nounderstandu()"><i class="fas fa-volume-up"></i></button></p>
+        <p>my arabic is bad = العربي مالتي مو زين <button onclick="myarabicbad()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Good / Okay = زين <button onclick="ok()"><i class="fas fa-volume-up"></i></button></p>
+        <p>sorry = اسف <button onclick="sry()"><i class="fas fa-volume-up"></i></button></p>
+        <p>I apologize = اني اعتذر <button onclick="srry()"><i class="fas fa-volume-up"></i></button></p>
+        <p>I don't want to = ما اريد <button onclick="idontwanna()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Right = يمين <button onclick="right()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Left = يسار <button onclick="left()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Right (correct) = صح <button onclick="correct()"><i class="fas fa-volume-up"></i></button></p>
+        <p>wrong = غلط <button onclick="incorrect()"><i class="fas fa-volume-up"></i></button></p>
+        <p>maybe = يمكن <button onclick="maybe()"><i class="fas fa-volume-up"></i></button></p>
+        <p>bye = مع السلامة <button onclick="bye()"><i class="fas fa-volume-up"></i></button></p>
+    </div>
+    <br>
+    <h2 class="h2">Pronouns - الضمائر</h2>
+    <br>
+    <div class="conversation">
+        <p>I = اني <button onclick="i()"><i class="fas fa-volume-up"></i></button></p>
+        <p>You (m.) = انت <button onclick="you()"><i class="fas fa-volume-up"></i></button></p>
+        <p>You (f.) = انتي <button onclick="youf()"><i class="fas fa-volume-up"></i></button></p>
+        <p>He = هو <button onclick="he()"><i class="fas fa-volume-up"></i></button></p>
+        <p>She = هية <button onclick="she()"><i class="fas fa-volume-up"></i></button></p>
+        <p>They = همة <button onclick="they()"><i class="fas fa-volume-up"></i></button></p>
+        <p>We = احنة <button onclick="we()"><i class="fas fa-volume-up"></i></button></p>
+        <p>You (p.) = انتوا <button onclick="youp()"><i class="fas fa-volume-up"></i></button></p>
+        <br>
+        <p>I'm Iraqi (m.) = اني عراقي <button onclick="imiraqi()"><i class="fas fa-volume-up"></i></button></p>
+        <p>I'm not Iraqi (m.) = اني مو عراقي <button onclick="imnotiraqi()"><i class="fas fa-volume-up"></i></button></p>
+        <p>I'm Iraqi (f.) = اني عراقية <button onclick="imiraqif()"><i class="fas fa-volume-up"></i></button></p>
+        <p>I'm not Iraqi (f.) = اني مو عراقية <button onclick="imnotiraqif()"><i class="fas fa-volume-up"></i></button></p>
+        <br>
+        <h2 class="">Other Examples</h2>
+        <br>
+        <p>You're Iraqi (m.) = انت عراقي</p>
+        <p>enta Iraqi</p>
+        <p>You're not Iraqi (m.) = انت مو عراقي</p>
+        <p>enta mu Iraqi</p>
+        <p>You're Iraqi (f.) = انتي عراقية</p>
+        <p>enti Iraqiya</p>
+        <p>You're not Iraqiya (f.) = انتي مو عراقية</p>
+        <p>enti mu Iraqiya</p>
+        <p>He is Iraqi = هو عراقي</p>
+        <p>huwa Iraqi</p>
+        <p>He is not Iraqi = هو مو عراقي</p>
+        <p>huwa mu Iraqi</p>
+        <p>She is Iraqi = هية عراقية</p>
+        <p>heeya Iraqiya</p>
+        <p>She is not Iraqi = هية مو عراقية</p>
+        <p>heeya mu Iraqiya</p>
+        <p>They're Iraqi = همة عراقيين</p>
+        <p>Huma Iraqiyeen</p>
+        <p>They're not Iraqi = همة مو عراقيين</p>
+        <p>Huma mu Iraqiyeen</p>
+        <p>We're Iraqi = احنة عراقيين</p>
+        <p>ihna Iraqiyeen</p>
+        <p>We're not Iraqi = احنة مو عراقيين</p>
+        <p>ihna mu Iraqiyeen</p>
+        <p>You're Iraqi (p.) = انتوا عراقيين</p>
+        <p>intu Iraqiyeen</p>
+        <p>You're not Iraqi (p.) = انتوا مو عراقيين</p>
+        <p>intu mu Iraqiyeen</p>
+    </div>
+    <br>
+    <h2 class="h2">Numbers - الارقام</h2>
+    <br>
+    <div class="conversation">
+        <p>Zero = صفر ٠ <button onclick="zero()"><i class="fas fa-volume-up"></i></button></p>
+        <p>One = واحد ١ <button onclick="one()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Two = ثنين ٢ <button onclick="two()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Three = كلاثة ٣ <button onclick="three()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Four = اربعة ٤ <button onclick="four()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Five = خمسة ٥ <button onclick="five()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Six = ستة ٦ <button onclick="six()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Seven = سبعة ٧ <button onclick="seven()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Eight = ثمانية ٨ <button onclick="eight()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Nine = تسعة ٩ <button onclick="nine()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Ten = عشرة ١٠ <button onclick="ten()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Eleven = دعش ١١ <button onclick="eleven()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Twelve = ثنعش ١٢ <button onclick="twelve()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Thirteen = كلتطعش ١٣ <button onclick="thirteen()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Fourteen = ارباطعش ١٤ <button onclick="fourteen()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Fifteen = خمسطعش ١٥ <button onclick="fifteen()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Sixteen = ستطعش ١٦ <button onclick="sixteen()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Seventeen = سباطعش ١٧ <button onclick="seventeen()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Eighteen = ثمنطعش ١٨ <button onclick="eighteen()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Nineteen = تساطعش ١٩ <button onclick="nineteen()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Twenty = عشرين ٢٠ <button onclick="twenty()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Twenty one = واحد و عشرين <button onclick="twenty1()"><i class="fas fa-volume-up"></i></button></p>
+        <p>the rest just goes: و عشرين ___ <button onclick="twentyand()"><i class="fas fa-volume-up"></i></button></p>
+        <p>24 = اربعة و عشرين ٢٤ <button onclick="twenty4()"><i class="fas fa-volume-up"></i></button></p>
+        <p>thirty = كلاثين ٣٠ <button onclick="thirty()"><i class="fas fa-volume-up"></i></button></p>
+        <p>forty = اربعين ٤٠ <button onclick="forty()"><i class="fas fa-volume-up"></i></button></p>
+        <p>fifty = خمسين ٥٠ <button onclick="fifty()"><i class="fas fa-volume-up"></i></button></p>
+        <p>sixty = ستين ٦٠ <button onclick="sixty()"><i class="fas fa-volume-up"></i></button></p>
+        <p>seventy = سبعين ٧٠ <button onclick="seventy()"><i class="fas fa-volume-up"></i></button></p>
+        <p>eighty = ثمانين ٨٠ <button onclick="eighty()"><i class="fas fa-volume-up"></i></button></p>
+        <p>ninety = تسعين ٩٠ <button onclick="ninety()"><i class="fas fa-volume-up"></i></button></p>
+        <p>hundred = مية ١٠٠ <button onclick="hundred()"><i class="fas fa-volume-up"></i></button></p>
+        <p>thousand = الف ١٠٠٠ <button onclick="thousand()"><i class="fas fa-volume-up"></i></button></p>
+        <p>hundred thousand = مية الف ١٠٠٠٠٠ <button onclick="hundred1000()"><i class="fas fa-volume-up"></i></button></p>
+        <p>million = مليون ١٠٠٠٠٠٠ <button onclick="million()"><i class="fas fa-volume-up"></i></button></p>
+        <p>billion = مليار ١٠٠٠٠٠٠٠٠٠ <button onclick="billion()"><i class="fas fa-volume-up"></i></button></p>
+        <br>
+        <p>plus = زائد <button onclick="plus()"><i class="fas fa-volume-up"></i></button></p>
+        <p>minus = ناقص <button onclick="minus()"><i class="fas fa-volume-up"></i></button></p>
+        <p>times = في <button onclick="times()"><i class="fas fa-volume-up"></i></button></p>
+        <p>divided by = تقسيم <button onclick="divided()"><i class="fas fa-volume-up"></i></button></p>
+        <p>equals = يساوي <button onclick="equals()"><i class="fas fa-volume-up"></i></button></p>
+        <p>number = رقم <button onclick="num()"><i class="fas fa-volume-up"></i></button></p>
+        <p>numbers = ارقام <button onclick="nums()"><i class="fas fa-volume-up"></i></button></p>
+        <p>phone number = رقم تلفون <button onclick="rqm()"><i class="fas fa-volume-up"></i></button></p>
+        <br>
+        <h2>Examples</h2>
+        <br>
+        <p>fifty five = خمسة و خمسين ٥٥ <button onclick="fiftyfive()"><i class="fas fa-volume-up"></i></button></p>
+        <p>forty five = خمسة و اربعين ٤٥ <button onclick="fortyfive()"><i class="fas fa-volume-up"></i></button></p>
+        <p>thirty two = ثنين و كلاثين ٣٢ <button onclick="thirtytwo()"><i class="fas fa-volume-up"></i></button></p>
+        <p>ninety seven = سبعة و تسعين ٩٧ <button onclick="ninetyseven()"><i class="fas fa-volume-up"></i></button></p>
+        <p>eighty eight = ثمانيه و ثمانين ٨٨ <button onclick="eightyeight()"><i class="fas fa-volume-up"></i></button></p>
+    </div>
+    <br>
+    <h2 class="h2">Colors - الالوان</h2>
+    <br>
+    <div class="conversation">
+        <p>Red = احمر <button onclick="red()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Green = اخضر <button onclick="green()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Yellow = اصفر <button onclick="yellow()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Blue = ازرگ <button onclick="blue()"><i class="fas fa-volume-up"></i></button></p>
+        <p>White = ابيض <button onclick="white()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Black = اسود <button onclick="black()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Gray = رصاصي <button onclick="gray()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Orange = برتقالي <button onclick="orange()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Pink = وردي <button onclick="pink()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Purple = بنفسجي <button onclick="purple()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Brown = جوزي <button onclick="brown()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Gold = ذهبي <button onclick="gold()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Light Blue = سمائي <button onclick="lblue()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Color = لون <button onclick="color()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Colors = الوان <button onclick="colors()"><i class="fas fa-volume-up"></i></button></p>
+    </div>
+    <br>
+    <h2 class="h2">Animals - الحيوانات</h2>
+    <br>
+    <div class="conversation">
+        <p>Dog = چلب <button onclick="dog()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Cat = بزونة <button onclick="cat()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Lion = أسد <button onclick="lion()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Tiger = نمر <button onclick="tiger()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Cow = بقرة <button onclick="cow()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Horse = حصان <button onclick="horse()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Donkey = حمار <button onclick="donkey()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Elephant = فيل <button onclick="elephant()"><i class="fas fa-volume-up"></i></button></p>
+        <p>deer = غزال <button onclick="deer()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Giraffe = زرافة <button onclick="giraffe()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Zebra = حمار وحشي <button onclick="zebra()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Bear = دب <button onclick="bear()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Pig = خنزير <button onclick="pig()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Panda = پاندا <button onclick="panda()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Chicken = دجاجة <button onclick="chicken()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Sheep = طلي <button onclick="sheep()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Goat = معزة <button onclick="goat()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Buffalo = ثور <button onclick="buffalo()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Chimp = قرد <button onclick="chimp()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Animal = حيوان <button onclick="animal()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Animals = حيوانات <button onclick="animals()"><i class="fas fa-volume-up"></i></button></p>
+    </div>
+    <br>
+    <h2 class="h2">Family - العائلة</h2>
+    <br>
+    <div class="conversation">
+        <p>Grandpa = جد <button onclick="grandpa()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Grandma = بيبي <button onclick="grandma()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Dad = اب <button onclick="dad()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Mom = ام <button onclick="mom()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Sister = اخت <button onclick="sister()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Brother = اخ <button onclick="brother()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Cousin = گراییب <button onclick="cousin()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Uncle = خال / عم <button onclick="uncled()"><i class="fas fa-volume-up"></i></button><button onclick="unclem()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Aunt = خالة / عمة <button onclick="auntd()"><i class="fas fa-volume-up"></i></button><button onclick="auntm()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Parents = ام و اب <button onclick="parents()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Family = عائلة <button onclick="family()"><i class="fas fa-volume-up"></i></button></p>
+    </div>
+    <br>
+    <h2 class="h2">Directions - الاتجاهات</h2>
+    <br>
+    <div class="conversation">
+        <p>North = شمال <button onclick="north()"><i class="fas fa-volume-up"></i></button></p>
+        <p>East = شرق <button onclick="east()"><i class="fas fa-volume-up"></i></button></p>
+        <p>West = غرب <button onclick="west()"><i class="fas fa-volume-up"></i></button></p>
+        <p>South = جنوب <button onclick="south()"><i class="fas fa-volume-up"></i></button></p>
+        <p>North east = شمال شرقي <button onclick="ne()"><i class="fas fa-volume-up"></i></button></p>
+        <p>North west = شمال غربي <button onclick="nw()"><i class="fas fa-volume-up"></i></button></p>
+        <p>South east = جنوب شرقي <button onclick="se()"><i class="fas fa-volume-up"></i></button></p>
+        <p>South west = جنوب غربي <button onclick="sw()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Forward = لیگدام / گبل <button onclick="forwardg()"><i class="fas fa-volume-up"></i></button><button onclick="forwardl()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Backward = لیورە <button onclick="backward()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Turn around = اندار <button onclick="ta()"><i class="fas fa-volume-up"></i></button></p>
+        <p>how do I get to ___? = شلون اروح ل ___؟ <button onclick="shlonaroh()"><i class="fas fa-volume-up"></i></button></p>
+        <p>where? = وين؟ <button onclick="where()"><i class="fas fa-volume-up"></i></button></p>
+        <p>how? = شلون؟ <button onclick="how()"><i class="fas fa-volume-up"></i></button></p>
+        <p>why? = ليش؟ <button onclick="why()"><i class="fas fa-volume-up"></i></button></p>
+        <p>because = لان <button onclick="cuz()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Direction = اتجاه <button onclick="direction()"><i class="fas fa-volume-up"></i></button></p>
+    </div>
+    <br>
+    <h2 class="h2">Shopping - التسوق</h2>
+    <br>
+    <div class="conversation">
+        <p>Shop / grocery store = محل <button onclick="shop()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Vegetables/fruits store = علوة <button onclick="alwa()"><i class="fas fa-volume-up"></i></button></p>
+        <p>How much is this? = هاي شگد سعرها؟ <button onclick="sir()"><i class="fas fa-volume-up"></i></button></p>
+        <p>How much is this? (another way of saying it) = هاي بيش؟ <button onclick="besh()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Expensive = غالي <button onclick="expensive()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Cheap = رخيص <button onclick="cheap()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Can you lower the price? = تگدر تنزل السعر؟ <button onclick="lowerprice()"><i class="fas fa-volume-up"></i></button></p>
+    </div>
+    <br>
+    <h2 class="h2">At the Hotel - في الفندق</h2>
+    <br>
+    <div class="conversation">
+        <p>Hotel = فندق <button onclick="hotel()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Room = غرفة <button onclick="room()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Restaurant = مطعم <button onclick="restaurant()"><i class="fas fa-volume-up"></i></button></p>
+        <p>I'd like to book a room = اريد احجز غرفة <button onclick="bookaroom()"><i class="fas fa-volume-up"></i></button></p>
+        <p>for how many people? = لچم شخص؟ <button onclick="howmanyppl()"><i class="fas fa-volume-up"></i></button></p>
+        <p>for one person = لشخص واحد <button onclick="oneperson()"><i class="fas fa-volume-up"></i></button></p>
+        <p>for two people = لشخصين <button onclick="twoppl()"><i class="fas fa-volume-up"></i></button></p>
+        <p>for 3 people = لكلث اشخاص <button onclick="threeppl()"><i class="fas fa-volume-up"></i></button></p>
+        <p>How much is it for a night? = بشگد اللیلة؟  <button onclick="howmuchnight()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Can I pay with a credit card? = اگدر ادفع بکریدت کارد؟ <button onclick="canipaycc()"><i class="fas fa-volume-up"></i></button></p>
+        <p>I have a booking = عندي حجز <button onclick="havebooking()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Under the name of who? = باسم منو؟ <button onclick="nameofwho()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Give me your Passport = انطيني جوازك/چ <button onclick="givepassportm()"><i class="fas fa-volume-up"></i></button><button onclick="givepassport()"><i class="fas fa-volume-up"></i></button></p>
+        <p>What's your phone number? = شگد رقم تلفونك/چ؟ <button onclick="phonenumm()"><i class="fas fa-volume-up"></i></button><button onclick="phonenum()"><i class="fas fa-volume-up"></i></button></p>
+    </div>
+    <br>
+    <h2 class="h2">At the Restaurant - في المطعم</h2>
+    <br>
+    <div class="conversation">
+        <p>What do you recommend? = شنو تقترح؟ <button onclick="wutdourec()"><i class="fas fa-volume-up"></i></button></p>
+        <p>How much is this (used only in a restaurant) = شگد الحساب؟ <button onclick="bill()"><i class="fas fa-volume-up"></i></button></p>
+        <p>I want ___ =  ___ اريد <button onclick="iwant()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Another = لخ <button onclick="lux()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Can I see the menu? = اگدر اشوف المنيو؟ <button onclick="menu()"><i class="fas fa-volume-up"></i></button></p>
+    </div>
+    <br>
+    <h2 class="h2">Time - الوكت</h2>
+    <br>
+    <div class="conversation">
+        <p>What time is it? = ساعة بيش؟ <button onclick="wuttime()"><i class="fas fa-volume-up"></i></button></p>
+        <p>it's seven o'clock = بالسبعة <button onclick="svn()"><i class="fas fa-volume-up"></i></button></p>
+        <p>AM = الصبح  <button onclick="am()"><i class="fas fa-volume-up"></i></button></p>
+        <p>PM = الليل  <button onclick="pm()"><i class="fas fa-volume-up"></i></button></p>
+        <p>it's three thirty (3:30) AM = بالكلاثة ونص الصبح  <button onclick="threethirty()"><i class="fas fa-volume-up"></i></button></p>
+        <p>it's four fifteen PM = بالاربعة و ربع بالليل  <button onclick="fourfifteen()"><i class="fas fa-volume-up"></i></button></p>
+        <p>it's five thirty five AM = بالخمسة و خمسة و كلاثين دقيقة الصبح  <button onclick="fiveam()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Minute = دقيقة  <button onclick="min()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Hour = ساعة  <button onclick="hr()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Second = ثانية  <button onclick="sec()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Day = يوم  <button onclick="day()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Week = اسبوع  <button onclick="week()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Month = شهر  <button onclick="month()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Year = سنة  <button onclick="year()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Decade = عقد  <button onclick="decade()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Century = قرن <button onclick="century()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Weeks = اسابيع  <button onclick="weeks()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Months = اشهر  <button onclick="months()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Years = سنين  <button onclick="years()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Decades = عقود  <button onclick="decades()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Centuries = قرون  <button onclick="centuries()"><i class="fas fa-volume-up"></i></button></p>
+    </div>
+    <br>
+    <h2 class="h2">Weather - الطقس</h2>
+    <br>
+    <div class="conversation">
+        <p>Cold = بارد <button onclick="cold()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Hot = حار <button onclick="hot()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Ice = ثلج <button onclick="ice()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Rain = مطر <button onclick="rain()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Cloud = غيمة <button onclick="cloud()"><i class="fas fa-volume-up"></i></button></p>
+        <p>it's hot = حارة <button onclick="ishot()"><i class="fas fa-volume-up"></i></button></p>
+        <p>it's cold = باردة <button onclick="iscold()"><i class="fas fa-volume-up"></i></button></p>
+        <p>it's raining = دتطمر <button onclick="israining()"><i class="fas fa-volume-up"></i></button></p>
+        <p>it's snowing = دتثلج <button onclick="issnowing()"><i class="fas fa-volume-up"></i></button></p>
+        <p>temperature = درجة الحرارة <button onclick="temp()"><i class="fas fa-volume-up"></i></button></p>
+        <p>how's the weather today? = شلون الجو اليوم؟ <button onclick="weathertoday()"><i class="fas fa-volume-up"></i></button></p>
+    </div>
+    <br>
+    <h2 class="h2">Food - الاكل</h2>
+    <br>
+    <div class="conversation">
+        <p><a href="https://en.wikipedia.org/wiki/Dolma" target="_blank">Dolma</a> = دولمة <button onclick="dolma()"><i class="fas fa-volume-up"></i></button></p>
+        <p><a href="https://en.wikipedia.org/wiki/Biryani" target="_blank">Biryani</a> = برياني <button onclick="biryani()"><i class="fas fa-volume-up"></i></button></p>
+        <p><a href="https://en.wikipedia.org/wiki/Masgouf" target="_blank">Masgouf fish</a> = سمچ مسگوف <button onclick="masgouf()"><i class="fas fa-volume-up"></i></button></p>
+        <p><a href="https://en.wikipedia.org/wiki/Torshi" target="_blank">Torshi</a> = طرشي <button onclick="torshi()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Rice = تمن <button onclick="rice()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Meat = لحم <button onclick="meat()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Chicken = دجاج <button onclick="chicken()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Bread = صمون <button onclick="samoon()"><i class="fas fa-volume-up"></i></button></p>
+        <p><a href="https://en.wikipedia.org/wiki/Khubz" target="_blank">Khubuz</a> = خبز <button onclick="xubz()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Water = مي <button onclick="water()"><i class="fas fa-volume-up"></i></button></p>
+    </div>
+    <br>
+    <h2 class="h2">Taxi - تكسي</h2>
+    <br>
+    <div class="conversation">
+        <p>Where do you want to go? = وين تريد تروح؟ <button onclick="wherego()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Where to? = وين رايح؟ <button onclick="whereto()"><i class="fas fa-volume-up"></i></button></p>
+        <p>I want to go to ____ = ____ اريد اروح ل <button onclick="iwantgo()"><i class="fas fa-volume-up"></i></button></p>
+        <p>How much is the fare? = شگد الاجرة؟ <button onclick="fare()"><i class="fas fa-volume-up"></i></button></p>
+        <p>That's too much = غالي <button onclick="toomuch()"><i class="fas fa-volume-up"></i></button></p>
+        <p>Hurry up = استعجل <button onclick="hurry()"><i class="fas fa-volume-up"></i></button></p>
+    </div>
+    <footer>
+        <a href="#">Back to top</a><br>
+        Credits:
+        <br>
+        <a href="https://www.instagram.com/dogeduaa/" target="_blank" rel="noopener noreferrer">Ye</a>: Programming and hosting the site. 
+        <br> 
+        <a href="https://www.instagram.com/hs44ever/" target="_blank" rel="noopener noreferrer">HSE</a>: Recording the audio files. 
+        <br> 
+        <a href="https://www.instagram.com/n.a.h.r.a/" target="_blank" rel="noopener noreferrer">Nahra</a>: Coming up with this wonderful idea. 
+        <br> 
+        Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
