@@ -8,7 +8,7 @@
     <meta name="description" content="Learn Iraqi arabic for free.">
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/dd112ecfba.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="/imgs/doge.png" type="image/png">
+    <link rel="icon" href="https://discord.com/assets/d0f82101fb1bb0b068e5f048cf1211d5.svg" type="image/svg">
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="icons/ay.png">
     <meta name="theme-color" content="#fff">
@@ -20,6 +20,7 @@
             <li><a href="/thealphabet.html">The Alphabet</a></li>
             <li><a href="/conversations.html">Conversations</a></li>
             <li><a href="/phrasesandwords.html">Phrases and Words</a></li>
+            <li><a href="/grammar.html">Basic grammar</a></li>
             <li onclick="toggleNav()"><h2>×</h2></li>
         </ul>
     </div>
@@ -32,6 +33,7 @@
                 <li><a href="/thealphabet.html">The Alphabet</a></li>
                 <li><a href="/conversations.html">Conversations</a></li>
                 <li><a href="/phrasesandwords.html">Phrases and Words</a></li>
+                <li><a href="/grammar.html">Basic grammar</a></li>
             </ul>
             <div>
                 <h3 onclick="toggleNav()"><i class="fas fa-bars"></i></h3>
@@ -46,25 +48,24 @@
         <p id="romanized-letters" class="alph2">Alef Baa Taa Thaa Jeem hhaa khaa daal dhaal raa zaay seen sheen dhaad taa dhaa ayn ghayn faa qaf kaf gaf lam meem noon haa waw yaa alef che</p>
         <p id="letters" class="alph3">A B T TH J H KH D TH R Z S SH S DH T DH 'AA GH F Q G L M N H W/U/O Y/I A CH <button onclick="alph2()"><i class="fas fa-volume-up"></i></button></p>
         <audio id="alph2" src="./audio-alphabet/alphabet-2.wav"></audio>
-        <p class="note">Note: Arabic is written from right to left.</p>
         <h3 class="rd">Reading exercises</h3>
-        <p><button onclick="marhaba()"><i class="fas fa-volume-up"></i></button> مرحبا <br> hello <br> (marhaba)</p>
+        <p><button onclick="marhaba()"><i class="fas fa-volume-up"></i></button> مرحبا <br> <i>marhaba</i> <br> hello</p>
         <br>
-        <p><button onclick="shlonak()"><i class="fas fa-volume-up"></i></button> شلونك <br> how are you (m.) <br> (shlonek)</p>
+        <p><button onclick="shlonak()"><i class="fas fa-volume-up"></i></button> شلونك <br> <i>shlonek</i> <br> how are you (m.)</p>
         <br>
-        <p><button onclick="ahlan()"><i class="fas fa-volume-up"></i></button> اهلا و سهلا <br> welcome <br> (ahlan wa sahlan)</p>
+        <p><button onclick="ahlan()"><i class="fas fa-volume-up"></i></button> اهلا و سهلا <br> <i>ahlan wa sahlan</i> <br> welcome</p>
         <br>
-        <p><button onclick="allah()"><i class="fas fa-volume-up"></i></button> الله اكبر <br> allah is great <br> (allahu akbar)</p>
+        <p><button onclick="allah()"><i class="fas fa-volume-up"></i></button> الله اكبر <br> <i>allahu akbar</i> <br> allah is great</p>
         <br>
-        <p><button onclick="sud()"><i class="fas fa-volume-up"></i></button> صدگ؟ <br> really? <br> (sudug)</p>
+        <p><button onclick="sud()"><i class="fas fa-volume-up"></i></button> صدگ؟ <br> <i>sudug</i> <br> really?</p>
         <br>
-        <p><button onclick="huw()"><i class="fas fa-volume-up"></i></button> هواية <br> a lot <br> (huwaye)</p>
+        <p><button onclick="huw()"><i class="fas fa-volume-up"></i></button> هواية <br> <i>huwaye</i> <br> a lot</p>
         <br>
-        <p><button onclick="hath()"><i class="fas fa-volume-up"></i></button> هذا <br> this <br> (hatha)</p>
+        <p><button onclick="hath()"><i class="fas fa-volume-up"></i></button> هذا <br> <i>hatha</i> <br> this</p>
         <br>
-        <p><button onclick="thak()"><i class="fas fa-volume-up"></i></button> ذاك <br> that <br> (thak)</p>
+        <p><button onclick="thak()"><i class="fas fa-volume-up"></i></button> ذاك <br> <i>thak</i> <br> that</p>
         <br>
-        <p><button onclick="shlonal()"><i class="fas fa-volume-up"></i></button> شلون الاحوال؟ <br> how are things? <br> (shlon el ahhwal)</p>
+        <p><button onclick="shlonal()"><i class="fas fa-volume-up"></i></button> شلون الاحوال؟ <br> <i>shlon el ahhwal</i> <br> how are things?</p>
         <h3 class="hk">Harakat (Vowel marks)</h3>
         <p>َ = فتحة (fathha)</p>
         <br>
@@ -72,9 +73,13 @@
         <br>
         <p>ِ  = كسرة (kasra)</p>
         <br>
-        <p>ّ = شدة = (shadda)</p>
+        <p>ّ = شدة (shadda)</p>
         <br>
-        <p id="harakat">the fatha makes an "a" sound, the dhama makes a "w/u" sound, the kasra makes a "y/i" sound, the shadda duplicates the letter</p>
+        <p>ً = تَنوين الفَتح (tenween al fatih)</p>
+        <br>
+        <p>ٍ = تنوين الكسر (tenween al kasir)</p>
+        <br>
+        <p>the fatha makes an "a" sound, the dhama makes a "w/u" sound, the kasra makes a "y/i" sound, the shadda duplicates the letter</p>
         <br>
         <p>دَ = da</p>
         <br>
@@ -120,9 +125,7 @@
         <a href="https://www.instagram.com/dogeduaa/" target="_blank" rel="noopener noreferrer">Ye</a>: Programming and hosting the site. 
         <br> 
         <a href="https://www.instagram.com/hs44ever/" target="_blank" rel="noopener noreferrer">HSE</a>: Recording the audio files. 
-        <br> 
-        <a href="https://www.instagram.com/n.a.h.r.a/" target="_blank" rel="noopener noreferrer">Nahra</a>: Coming up with this wonderful idea. 
-        <br> 
+        <br>
         Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
     </footer>
     <script src="./app.js"></script>

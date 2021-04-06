@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Learn Iraqi Arabic</title>
+    <meta name="author" content="Lara">
+    <meta name="description" content="Learn Iraqi arabic for free.">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/dd112ecfba.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://discord.com/assets/d0f82101fb1bb0b068e5f048cf1211d5.svg" type="image/svg">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/ay.png">
+    <meta name="theme-color" content="#fff">
+</head>
+<body id="home">
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/thealphabet.html">The Alphabet</a></li>
+            <li><a href="/conversations.html">Conversations</a></li>
+            <li><a href="/phrasesandwords.html">Phrases and Words</a></li>
+            <li><a href="/grammar.html">Basic grammar</a></li>
+            <li onclick="toggleNav()"><h2>×</h2></li>
+        </ul>
+    </div>
+    <header>
+        <nav>
+            <h1><a href="index.html">تعلم اللغة العربية</a></h1>
+            <h1 class="mob-h1"><a href="index.html">تعلم اللغة العربية</a></h1>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/thealphabet.html">The Alphabet</a></li>
+                <li><a href="/conversations.html">Conversations</a></li>
+                <li><a href="/phrasesandwords.html">Phrases and Words</a></li>
+                <li><a href="/grammar.html">Basic grammar</a></li>
+            </ul>
+            <div>
+                <h3 onclick="toggleNav()"><i class="fas fa-bars"></i></h3>
+            </div>
+        </nav>
+    </header>
+    <h1 class="title-5">Basic grammar</h1>
+    <h2 class="h2">Pronouns</h2>
+    <div class="conversation">
+        <p>اني - I/I am <button onclick="iam()"><i class="fas fa-volume-up"></i></button></p>
+        <p>انتَ - You/You are (m.) <button onclick="youare()"><i class="fas fa-volume-up"></i></button></p>
+        <p>انتي - You/You are (f.) <button onclick="youaref()"><i class="fas fa-volume-up"></i></button></p>
+        <p>هوَ - He/He's <button onclick="he()"><i class="fas fa-volume-up"></i></button></p>
+        <p>هيَ - She/She's <button onclick="she()"><i class="fas fa-volume-up"></i></button></p>
+        <p>هُمه - They/They're <button onclick="they()"><i class="fas fa-volume-up"></i></button></p>
+        <p>إحنه - We/We are <button onclick="we()"><i class="fas fa-volume-up"></i></button></p>
+        <p>إنتوا - You/You are (plural) <button onclick="youp()"><i class="fas fa-volume-up"></i></button></p>
+        <br>
+        <h2>Examples</h2>
+        <p>اني دا آكُل (I am eating)</p>
+        <p>انتَ دَتاكُل (You are eating [m.])</p>
+        <p>راح أنام (I will sleep)</p>
+        <p>راح تنام؟ (You'll sleep? [m.])</p>
+        <p>راح تنامين؟ (You'll sleep? [f.])</p>
+        <br>
+    </div>
+    <h2 class="h2">Nouns (الأسماء)</h2>
+    <div class="conversation">
+        <br>
+        <h2>Definite and indefinite states</h2>
+        <p>سيارة (Car) = السيارة (The car)</p>
+        <p>طيارة (Plane) = الطيارة (The plane)</p>
+        <p>‌أمير (Prince) = الأمير (The Prince)</p>
+        <p>‌رئيسة (President [f.]) = الرئيسة (The president)</p>
+        <p class="note">In order to make a noun definite, add (ال), it's called "Al al-ta'rif in Arabic grammar books. In order to differentiate between a definite noun and an indefinite noun, just look at the noun, if it begins with (ال) it's a definite noun.</p>
+        <h2>Construct state (where they have the meaning of possessive demonstratives)</h2>
+        <p>رئيس العراق (President of Iraq)</p>
+        <p>قلم أحمد (Ahmed's pencil)</p>
+        <p>حاكم بغداد (Baghdad's ruler)</p>
+        <p>بنت الملك (Daughter of the king)</p>
+        <p>بنت علي (Ali's daughter)</p>
+        <p class="note">In order to make a noun constructive, add (ال) to the word after the noun if it's not a name of a person or a city, if it is then don't add Al al ta'rif.</p>
+    </div>
+    <h2 class="h2">Demonstratives (أسماء الأشارة)</h2>
+    <div class="conversation">
+        <p>هذا - this (m.)</p>
+        <p>هايَ - this (f.)</p>
+        <p>ذاكَ - that (m.)</p>
+        <p>ذيچَ - that (f.)</p>
+    </div>
+    <h2 class="h2">Prepositions (حروف الجر)</h2>
+    <div class="conversation">
+        <p>بـ - in, example: ببيتي (In my house)</p>
+        <p>ويه - with, example: ويه سجاد (With sajad), وياك (With you [m.]), علي وياك (Ali with you [m.]), علي وياچ (Ali with you [f.])</p>
+        <p>مِن - from, since, than. Example: اني من أربيل (I'm from Erbil), من ٢٠٢٠ لحد هسه (since 2020 until now)</p>
+        <p>لِحَد - until, example: لحد هسه مقاري؟ (You didn't study until now?)</p>
+        <p>لِـ - to, example: رايح للمحل (I'm going to the shop) [if a noun beings with (ال) remove the alef before adding "to"]</p>
+        <p>عَلى - on, example: التلفون على الميز (The phone is on the table)</p>
+        <p>كَـ - as, example: نستخدمها كزينة (We use it as a decoration)</p>
+        <p>جَوّه - under, inside. Example: اني هسه جوه البيت (I'm inside the house now), القميص جوه الفراش (The t-shirt is under the bed)</p>
+        <p>گِدام - in front of, example: اني واگف گدام السيارة (I'm standing in front of the car [m.])</p>
+        <p>فوگ - above, example: اني فوگ السطح (I'm above the roof)</p>
+        <p>وَره - behind, example: اني واگفه وراك (I'm standing behind you [f.])</p>
+        <p>مثل - like, example: هذا العلم مثل علم تُركيا (This flag is like Turkey's flag)</p>
+        <p>چَنّه - like, same use case as <i>Mithil مثل</i> above.</p>
+    </div>
+    <h2 class="h2">Word order and other notes</h2>
+    <div class="conversation">
+        <p>The word order SVO (subject before verb before object) is how you sort the words to form a sentence in Iraqi Arabic.</p>
+        <p>Examples: كرار نام بالفراش (Karrar slept in the bed), سجاد انضم للحشد (Sajad joined the PMU)</p>
+        <p>Arabic verbs and words have gender differences unlike other languages in the area such as Persian and Sorani Kurdish, in order to differentiate between feminine nouns and masculine ones just look at the ending of the noun, if it ends with a ta' marbuta (ة) it's a feminine noun, otherwise it's a masculine noun.</p>
+    </div>
+    <h2 class="h2">Forms of verbs</h2>
+    <div class="conversation">
+        <p>In order to make a verb continuous, just add (دا) "da" or "d" in front of the verb and it becomes continuous.</p>
+        <p>Examples: عمر دَياكل (Omar is eating), بكر دَينام (Bakr is sleeping)</p>
+        <p><strong>Note:</strong> The southern accent uses <i>Jaay جاي</i> instead of <i>Daa دا</i></p>
+    </div>
+    <h2 class="h2">Question tools</h2>
+    <div class="conversation">
+        <p>شنو = What</p>
+        <p>ليش = Why</p>
+        <p>شوَكت = When</p>
+        <p>شلون = How</p>
+        <p>منو = Who</p>
+        <p>وين = Where</p>
+        <p>شگَد = How much</p>
+        <p>چَم = How many, few</p>
+        <h2>Examples:</h2>
+        <p>شنو أسمك؟ or شسمك؟ = What is your name?</p>
+    </div>
+    <footer>
+        <a href="#">Back to top</a><br>
+        Credits:
+        <br>
+        <a href="https://www.instagram.com/dogeduaa/" target="_blank" rel="noopener noreferrer">Ye</a>: Programming and hosting the site. 
+        <br> 
+        <a href="https://www.instagram.com/hs44ever/" target="_blank" rel="noopener noreferrer">HSE</a>: Recording the audio files. 
+        <br>
+        Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -10,6 +10,19 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #111;
+}
+
 header {
   padding: 15px 0;
   display: -webkit-box;
@@ -38,9 +51,9 @@ header nav {
 }
 
 header nav h1 {
-  -webkit-box-flex: 1.25;
-      -ms-flex: 1.25;
-          flex: 1.25;
+  -webkit-box-flex: 1.2;
+      -ms-flex: 1.2;
+          flex: 1.2;
 }
 
 header nav h1 a {
@@ -299,13 +312,12 @@ footer a {
 
 .alphabet-letters {
   margin-top: -1.5em;
-  font-weight: 500;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 .alphabet-letters p {
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .alphabet-letters #romanized-letters, .alphabet-letters #letters {
@@ -313,10 +325,6 @@ footer a {
   font-size: 18px;
   margin: 1em 0;
   margin-top: 2em;
-}
-
-.alphabet-letters .note {
-  font-size: 19px;
 }
 
 .alphabet-letters #letters button {
@@ -348,14 +356,9 @@ footer a {
 }
 
 .alphabet-letters h3 {
-  margin: 1em 0;
-  margin-left: 5%;
-  text-align: left;
-  font-size: 28px;
-}
-
-.alphabet-letters #harakat {
-  font-size: 20px;
+  margin: 2em 0;
+  text-align: center;
+  font-size: 26px;
 }
 
 @media screen and (min-width: 600px) {
@@ -437,6 +440,10 @@ footer a {
   font-weight: 500;
   line-height: 2;
   margin: 1.3em 0;
+}
+
+.conversation .note {
+  width: 70%;
 }
 
 .conversation .ar {
@@ -621,6 +628,9 @@ footer a {
     width: 90%;
     margin: auto;
     margin-top: 3em;
+  }
+  .conversation .note {
+    width: 100%;
   }
   .h2 {
     margin-left: 5%;
