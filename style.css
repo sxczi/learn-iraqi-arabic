@@ -47,9 +47,9 @@ header nav {
 }
 
 header nav h1 {
-  -webkit-box-flex: 1.15;
-      -ms-flex: 1.15;
-          flex: 1.15;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 header nav h1 a {
