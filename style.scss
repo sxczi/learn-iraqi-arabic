@@ -12,16 +12,12 @@ html {
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 9px;
   }
   
 ::-webkit-scrollbar-thumb {
-    background: #333;
+    background: #4D4A4A;
     border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: #111;
 }
 
 header {
@@ -37,7 +33,7 @@ header {
         display: flex;
         align-items: center;
         h1 {
-            flex: 1.2;
+            flex: 1.15;
             a {
                 text-decoration: none;
                 color: black;
